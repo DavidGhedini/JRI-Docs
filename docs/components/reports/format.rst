@@ -89,4 +89,14 @@ Displays report email recipient(s).
 
 Displays any URL Parameters the report is using.
 
+
+No Schedule
+===========
+
+.. note::
+    Any report that does not have a schedule will show the Scheduler icon in the Actions menu.  To add a Schedule, click the icon as shown below.
+
+ 
+.. image:: _static/reports-no-schedule.gif
+
    
