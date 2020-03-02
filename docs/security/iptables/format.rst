@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-OpenLayers
+IP Tables
 **********************
 
 .. contents:: Table of Contents
