@@ -13,7 +13,7 @@ On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the 
 
     $ ./pre-install-jrip-centos.sh
     
-The above will install Webmin, Apache HTTPD Server, as well as our (optional) Certbot Module for SSL.
+The above will install Webmin, Apache HTTPD Server, JRI Publisher module, as well as our (optional) Certbot Module for SSL.
 
 When the script completes, you will see the message below:
 
