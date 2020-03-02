@@ -9,7 +9,7 @@ JRI Publisher
 
    intro
    installing
-   set up wizard
+   wizard
    
 
 .. toctree::
