@@ -26,7 +26,7 @@ When the script completes, you will see the message below:
 
 
 .. note::
-    Following above, you will need to log in to Webmin to complete installation using the install Wizard.
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard.see :ref:`webmin-label`.
 
 Via Git or Download
 ===================
