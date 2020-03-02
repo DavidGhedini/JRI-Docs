@@ -47,7 +47,8 @@ intersphinx_mapping = {
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
-    'logo_only': True
+    'logo_only': False,
+    'display_version': True
 }
 html_theme_path = ["_themes", ]
 html_logo = "demo/static/logo-wordmark-light.svg"
