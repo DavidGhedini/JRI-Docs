@@ -12,7 +12,7 @@ from sphinx.locale import _
 from sphinx_rtd_theme import __version__
 
 
-project = u'AcuGIS Suite'
+project = u'JRI Publisher'
 slug = re.sub(r'\W+', '-', project.lower())
 version = __version__
 release = __version__
