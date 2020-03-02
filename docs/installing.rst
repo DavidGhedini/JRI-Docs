@@ -41,4 +41,4 @@ You can use Git to build module for an existing Webmin installation:
 
     
 .. note::
-    Following above, you will need to log in to Webmin to complete installation using the install Wizard.
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard. :doc:`wizard.rst <wizard.rst>` 
