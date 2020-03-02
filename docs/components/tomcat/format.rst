@@ -70,47 +70,47 @@ The Tomcat init script is located under /etc/init.d/tomcat and has the contents 
 .. code-block:: javascript
   :linenos:
 
-#!/bin/bash
-### BEGIN INIT INFO
-# Provides:        tomcat
-# Required-Start:  $network
-# Required-Stop:   $network
-# Default-Start:   2 3 4 5
-# Default-Stop:    0 1 6
-# Short-Description: Start/Stop Tomcat server
-### END INIT INFO
+	#!/bin/bash
+	### BEGIN INIT INFO
+	# Provides:        tomcat
+	# Required-Start:  $network
+	# Required-Stop:   $network
+	# Default-Start:   2 3 4 5
+	# Default-Stop:    0 1 6
+	# Short-Description: Start/Stop Tomcat server
+	### END INIT INFO
 
-# Source function library.
-. /etc/environment;	#Catalina variables
-. $CATALINA_HOME/bin/setenv.sh
+	# Source function library.
+	. /etc/environment;	#Catalina variables
+	. $CATALINA_HOME/bin/setenv.sh
 
-RETVAL=$?
+	RETVAL=$?
 
-function start(){
+	function start(){
 	echo "Starting Tomcat"
 	/bin/su - tomcat $CATALINA_HOME/bin/startup.sh
 	RETVAL=$?
-}
+	}
 
-function stop(){
+	function stop(){
 	echo "Stopping Tomcat"
 	/bin/su - tomcat -c "$CATALINA_HOME/bin/shutdown.sh 60 -force"
 	RETVAL=$?
-}
+	}
 
-case "$1" in
- start)
+	case "$1" in
+ 	start)
 		start;
         ;;
- stop)
+ 	stop)
 		stop;
         ;;
- restart)
+ 	restart)
 		echo "Restarting Tomcat"
-    stop;
+    	stop;
 		start;
         ;;
- status)
+ 	status)
 
 		if [ -f "${CATALINA_PID}" ]; then
 			TOMCAT_PID=$(cat "${CATALINA_PID}")
@@ -121,12 +121,12 @@ case "$1" in
 			RETVAL=0
 		fi
 		;;
- *)
+ 	*)
         echo $"Usage: $0 {start|stop|restart|status}"
         exit 1
         ;;
-esac
-exit $RETVAL
+	esac
+	exit $RETVAL
 
 
 
