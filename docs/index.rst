@@ -10,11 +10,6 @@ JRI Publisher
    intro
    installing
    wizard
-   
-
-.. toctree::
-   :maxdepth: 1
-   
    webmin
    
 .. toctree::
