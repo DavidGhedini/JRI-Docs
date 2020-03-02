@@ -16,7 +16,7 @@ JRI Publisher
    :maxdepth: 1
    :hidden:
    
-   contributing
+   webmin
    
 .. toctree::
     :maxdepth: 3
