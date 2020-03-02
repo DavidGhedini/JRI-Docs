@@ -48,4 +48,22 @@ JNDI Data Sources have the following form::
    name=jndi_test
 
 
+Adding a Data Source
+====================
+
+Data Sources can be added, edited, and removed the JRI Publisher Module via the Data Source tab, as shown below
+
+.. image:: _static/DataSourceTab.png
+
+The default view on clicking the tab is the List view, as shown below.
+
+.. image:: _static/DataSources-List-1.png
+
+To add a Data Source, click on the Add tab at top.
+
+Select the desired Data Source type and enter the required information as shown below:
+
+.. image:: _static/DataSources.png
+
+
 
