@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-OpenLayers
+Restricted Login
 **********************
 
 .. contents:: Table of Contents
