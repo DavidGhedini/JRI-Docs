@@ -10,8 +10,11 @@ JRI Publisher installs and configures Tomcat, Java, and JRI.  It also provides a
 System Requirements
 -------------------
 CentOS 8
+
 Ubuntu 18
+
 Webmin
+
 Postfix
 
 
