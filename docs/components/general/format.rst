@@ -16,14 +16,14 @@ Edit Config
 
 The Config tab is used to edit the following files::
 
-.. code:: python:
-
    application.properties
    server.xml
    web.xml
    context.xml
    tomcat-users.xml
    setenv.sh
+   
+These files can also be edit via the file system.
 
 
 Apps
@@ -31,15 +31,7 @@ Apps
 
 The Apps manager allows you to deploy, undeploy, and redeploy WAR files in Tomcat
 
-Meta
-====
-
-.. meta::
-   :keywords: reStructuredText, demonstration, demo, parser
-   :description lang=en: A demonstration of the reStructuredText
-       markup language, containing examples of all basic
-       constructs and many advanced constructs.
-       
+   
 Libraries
 =========
 
