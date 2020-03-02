@@ -2,40 +2,40 @@
 Installation
 ************
 
-Install the package (or add it to your ``requirements.txt`` file):
+On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the pre-installer script:
 
 .. code:: console
 
-    $ pip install sphinx_rtd_theme
+    $ ./pre-install-jrip-centos.sh
+    
+The above will install Webmin, Apache HTTPD Server, as well as our (optional) Certbot Module for SSL.
 
-In your ``conf.py`` file:
+When the script completes, you will see the message below:
 
-.. code:: python
+.. code:: console
 
-    import sphinx_rtd_theme
-
-    extensions = [
-        ...
-        'sphinx_rtd_theme',
-    ]
-
-    html_theme = "sphinx_rtd_theme"
+    $ /opt ~
+    $ Installed CertBot in /usr/share/webmin/certbot (336 kb)
+    $ ~
+    $ JRI Publisher is now installed. Go to Servers > JRI Publisher to complete installation
 
 
 .. note::
-    Adding this theme as an extension is what enables localization of theme
-    strings in your translated output. If these strings are not translated in
-    your output, either we lack the localized strings for your locale, or you
-    are using an old version of the theme.
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard.
 
 Via Git or Download
 ===================
 
-Symlink or subtree the ``sphinx_rtd_theme/sphinx_rtd_theme`` repository into your documentation at
-``docs/_themes/sphinx_rtd_theme`` then add the following two settings to your Sphinx
-``conf.py`` file:
+You can use Git to build module for an existing Webmin installation:
 
-.. code:: python
+.. code:: console
 
-    html_theme = "sphinx_rtd_theme"
-    html_theme_path = ["_themes", ]
+$ git clone https://github.com/cited/Tomcat-Webmin-Module
+
+$ mv Tomcat-Webmin-Module-master tomcat
+
+$ tar -cvzf tomcat.wbm.gz tomcat/
+
+    
+.. note::
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard.
