@@ -2,6 +2,11 @@
 Installation
 ************
 
+Installation can be done using the pre-installer.sh script or via GIT.
+
+Using the Pre-Installer
+=======================
+
 On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the pre-installer script:
 
 .. code:: console
