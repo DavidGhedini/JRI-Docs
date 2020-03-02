@@ -18,7 +18,7 @@ Authors
 Components
 ----------
 
-<a href="https://www.openstreetmap.org">this</a>
+https://www.openstreetmap.org
 
 http://www.geofabrik.de/
 
