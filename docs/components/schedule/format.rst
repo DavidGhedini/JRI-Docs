@@ -122,8 +122,20 @@ Click the Save button.
 
 You can add as many parameters as you wish to.
 
+Finally, click the Creat button to schedule the report.
 
-.. image:: _static/publish-options.png
+Additional Examples
+===================
+
+Below are some additional examples.
+
+Send report every Tuesday at 1500 (3 PM)
+
+.. image:: _static/schedule-tuesday.png
+
+Send report every hour without email delivery
+
+.. image:: _static/schedule-hour.png
 
    
 
