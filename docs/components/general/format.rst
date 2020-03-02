@@ -50,7 +50,7 @@ The Java tab is during installation for installing the JDK and configuration.
 It can also be used to un-install the selected JDK and replace it with a new version.
 
 
-.. image:: /docs/_static/java-installed.png
+.. image:: _static/java-installed.png
 
 
 Note that when installing or removing, there is an option to set as System default.
