@@ -39,24 +39,32 @@ Dashboard Functions
 
  Clicking on the report name will open the .jrxml file for editing, as shown below:
  
- .. image:: _static/reports-edit-jrxml.gif
+.. image:: _static/reports-edit-jrxml.gif
  
  
 **Actions**::
       
 Run:  Runs the report on demand.
 
+.. image:: _static/reports-actions.gif
+
+
 Clean: Opens a new window to delete any reports you may wish to delete
+
+.. image:: _static/reports-cleaner.gif 	
 
 Download:  Opens a new window to download selected report(s) in .zip or .bgz format.
 
+.. image:: _static/reports-downloader.gif 	
+
+
 **SchID**::
 
-Edit the Schedule for the report
+Link to edit the Schedule for the report
 
 **Cron**::
 
-Displays the cron used for the Schedule
+Displays the cron in use for the Schedule
  
 **Format**::
 
