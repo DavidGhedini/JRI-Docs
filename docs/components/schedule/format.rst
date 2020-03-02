@@ -27,7 +27,7 @@ Scheduling Options
 
 The Schedule module offers the following options.
 
-Execute::
+**Execute**::
 
    Options:
       now
@@ -42,7 +42,7 @@ Execute::
  
  hourly, weekly, and monthly are as stated.
  
-Name::
+**Name**::
 
    Options:
       Drop-down list of all available reports
@@ -51,7 +51,7 @@ Name::
 The Name field will display a list of all available reports.  Above, we have select the NewReports/ClassReports we created earlier.
 
 
-Format::
+**Format**::
 
    Options:
       csv
@@ -68,14 +68,14 @@ Format::
 Select the desired output format for the report.
 
 
-Data Source::
+**Data Source**::
 
    Options:
       Displays a drop-down list of Data Sources you have created.
 
 Select the desired Data Source for the report.
 
-File Name::
+**File Name**::
 
    Options:
       Enter the desired file name WITH Extension.
@@ -84,7 +84,7 @@ File Name::
 Enter the desired Data Source for the report.
 
 
-Email::
+**Email**::
 
    Options:
       Enter email address or comma separated list of addresses for delivery.
