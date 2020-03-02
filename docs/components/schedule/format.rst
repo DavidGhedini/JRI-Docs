@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-PostgreSQL
+Schedule
 **********************
 
 .. contents:: Table of Contents
