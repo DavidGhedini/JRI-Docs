@@ -1,12 +1,12 @@
+.. image:: _static/jri-logo-small.png
+
 JRI Publisher
 ==================================================
-
-.. image:: _static/jri-logo-small.png
 
 .. include:: ../README.rst
 
 .. toctree::
-   :caption: JRI Publisher
+   :caption: Getting Started
    :maxdepth: 2
 
    intro
