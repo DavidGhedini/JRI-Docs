@@ -7,16 +7,17 @@ JRI Publisher
    :caption: JRI Publisher
    :maxdepth: 2
 
+   intro
    installing
-   configuring
-   contributing
+   set up wizard
+   
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-
-   changelog
-
+   
+   contributing
+   
 .. toctree::
     :maxdepth: 3
     :caption: Components
