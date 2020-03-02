@@ -28,13 +28,6 @@ JRI Publisher
 
 .. toctree::
     :maxdepth: 3
-    :caption: Tutorials
-
-    tutorials/demo/format
-    tutorials/oracle/format 
-    
-.. toctree::
-    :maxdepth: 3
     :caption: Security
 
     security/firewall/format
