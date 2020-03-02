@@ -36,11 +36,11 @@ The Schedule module offers the following options.
       weekly
       monthly
       
- now:  This will run the report immediately, with no subsequent runs.
+now:  This will run the report immediately, with no subsequent runs.
+
+custom: This option allows you to enter a custom cron for running the report
  
- custom: This option allows you to enter a custom cron for running the report
- 
- hourly, weekly, and monthly are as stated.
+hourly, weekly, and monthly are as stated.
  
 **Name**::
 
