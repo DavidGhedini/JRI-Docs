@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-Leaflet
+Firewall
 **********************
 
 .. contents:: Table of Contents
