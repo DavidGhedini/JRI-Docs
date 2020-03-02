@@ -11,8 +11,8 @@ Data Sources
 **********************
 
 .. contents:: Table of Contents
-Types
-=====
+Data Source Types
+=================
 
 Data Sources are used to connect your Oracle database.
 
