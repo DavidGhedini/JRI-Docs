@@ -131,11 +131,15 @@ Below are some additional examples.
 
 Send report every Tuesday at 1500 (3 PM)
 
-.. image:: _static/schedule-tuesday.png
+.. image:: _static/schedule-tuesdays.png
 
 Send report every hour without email delivery
 
 .. image:: _static/schedule-hour.png
+
+Send report weekly with StudentID = 51
+
+.. image:: _static/schedule-weekly.png
 
    
 
