@@ -4,7 +4,9 @@ Intro
 Overview
 ------------
 
-JRI Publisher installs and configures Tomcat, Java, and JRI.  It also provides a module for Publishing, Scheduling, and Managing Reports. ::
+JRI Publisher installs and configures Tomcat, Java, and JasperReportsIntegration.  
+
+It also provides a module for Publishing, Scheduling, and Managing Reports. ::
 
 
 System Requirements
