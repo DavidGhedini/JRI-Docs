@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-OpenLayers
+Oracle
 **********************
 
 .. contents:: Table of Contents
