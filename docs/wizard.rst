@@ -8,9 +8,51 @@ Go to Servers > JRI Publisher:
 
 .. image:: _static/3.png
 
-.. code:: console
+The main Wizard screen will then display each step.
 
-    $ pip install sphinx_rtd_theme
+While most steps are self-explanatory, we will cover Tomcat, JDK, and JRI selection below:
+
+.. image:: _static/4-java.png
+
+Select the JDK you wish to use.  We have tested with JDK 8
+
+.. image:: _static/5-java.png
+
+
+With JDK selected, select Tomcat version below.  
+
+.. image:: _static/8-tomcat.png
+
+We have test with Tomcat 9.x:
+
+.. image:: _static/9-tomcat.png
+
+
+With Tomcat installed, select JRI version below.  
+
+.. image:: _static/13-jri.png
+
+We have tested with 2.4.0:
+
+.. image:: _static/14-jri.png
+
+If you wish to use a Beta version of JRI, tick the "Show Beta Versions" box:  
+
+.. image:: _static/15-jri.png
+
+Once each step of the Wizard is completed, the Wizard can be removed:
+
+.. image:: _static/19-donei.png
+
+With the Wizard completed, your module should appear as below:
+
+.. image:: _static/21-Start-Tomcat.png
+
+
+
+
+
+
 
 In your ``conf.py`` file:
 
