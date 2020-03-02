@@ -29,8 +29,6 @@ JRI Publisher
     components/schedule/format
     components/reports/format
 
-
-   
 .. toctree::
     :maxdepth: 3
     :caption: Tutorials
@@ -38,7 +36,7 @@ JRI Publisher
     tutorials/demo/format
     tutorials/oracle/format 
     
- .. toctree::
+.. toctree::
     :maxdepth: 3
     :caption: Security
 
