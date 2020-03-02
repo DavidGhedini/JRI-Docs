@@ -33,7 +33,7 @@ JRI Publisher
    
 .. toctree::
     :maxdepth: 3
-    :caption: Examples
+    :caption: Tutorials
 
     tutorials/demo/format
     tutorials/oracle/format 
