@@ -35,15 +35,65 @@ Execute::
       hourly
       weekly
       monthly
+      
+ now:  This will run the report immediately, with no subsequent runs.
+ 
+ custom: This option allows you to enter a custom cron for running the report
+ 
+ hourly, weekly, and monthly are as stated.
+ 
+Name::
+
+   Options:
+      Drop-down list of all available reports
 
 
-    
-Select the directory you wish to publish to and then select Upload to upload both your .jrxml and .jasper files.
+The Name field will display a list of all available reports.  Above, we have select the NewReports/ClassReports we created earlier.
 
-You would also include any support files, such as image files.
 
-Creating Directories
-====================
+Format::
+
+   Options:
+      csv
+      docx
+      html
+      html2
+      jxl
+      pdf
+      pptx
+      rtf
+      xls
+      xlsx
+
+Select the desired output format for the report.
+
+
+Data Source::
+
+   Options:
+      Displays a drop-down list of Data Sources you have created.
+
+Select the desired Data Source for the report.
+
+File Name::
+
+   Options:
+      Enter the desired file name WITH Extension.
+      Example: ClassReports.pdf
+
+Select the desired Data Source for the report.
+
+
+Email::
+
+   Options:
+      Enter email address or comma separated list of addresses for delivery.
+
+Select the desired Data Source for the report.
+
+
+Optional Params
+===============
 
 To publish a report, click the Publish tab as shown below. 
 
