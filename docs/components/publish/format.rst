@@ -14,64 +14,35 @@ Publish
 Publishing Reports
 ==================
 
-To publish a report, click the Publish tab as shown below::
+To publish a report, click the Publish tab as shown below:
 
 .. image:: _static/publish.png
 
+This will open the screen below.  
 
+.. image:: _static/publish-new.png
 
-JRI Publisher supports both JDBC and JNDI Data Source types included with JRI.
+.. note::
+    The file browser location is set to /home/tomcat/apache-tomcat-v/jasper_reports/reports
+    
+Select the directory you wish to publish to and then select Upload to upload both your .jrxml and .jasper files.
 
-JDBC Data Sources are stored in a flat file at::
+You would also include any support files, such as image files.
 
-   /home/tomcat/apache-tomcat-v/jasper_reports/conf/
+Creating Directories
+====================
+
+To publish a report, click the Publish tab as shown below:
+
+.. image:: _static/publish.png
+
+Enter the name of the directory you wish to create as show below.
+
+Once text is entered, upload any files you wish to.
+
+.. image:: _static/publish-upload.png
+
    
-DBC Data Sources have the following form::
-
-   #====================================================================
-   # JDBC datasource configuration
-   # http://www.orafaq.com/wiki/JDBC#Thin_driver
-   # additional jdbc configurations, please uncomment
-   #====================================================================
-   [datasource:test]
-   name=test
-   url=jdbc:oracle:thin:@127.0.0.1:1521:XE
-   username=my_oracle_user
-   password=my_oracle_user_pwd
-
-JNDI Data Sources are stored in a database and referenced in the application server rather than stored in a flat file as with JDBC Data Sources.
-
-JNDI Data Sources have the following form::
-
-   #====================================================================
-   # Native JNDI datasource, to be configured in the application server
-   # name: jndi_test
-   #====================================================================
-   [datasource:jndi_test]
-   type=jndi
-   name=jndi_test
-
-
-Working with Data Sources
-=========================
-
-Data Sources can be added, edited, and removed the JRI Publisher Module via the Data Source tab, as shown below
-
-.. image:: _static/DataSourceTab.png
-
-The default view on clicking the tab is the List view, as shown below.
-
-.. image:: _static/DataSources-List-1.png
-
-To add a Data Source, click on the Add tab at top.
-
-Select the desired Data Source type and enter the required information as shown below. Then click the Create button:
-
-.. image:: _static/DataSources.png
-
-To remove a Data Source, click on the Remove tab and select the Data Source you wish to remove using the drop-down selector as shown below:
-
-.. image:: _static/DataSources-Remove.png
 
 
 
