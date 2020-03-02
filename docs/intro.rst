@@ -4,40 +4,29 @@ Intro
 Overview
 ------------
 
-This script is for building a basic tile server with OpenStreetMap data ::
+JRI Publisher installs and configures Tomcat, Java, and JRI.  It also provides a module for Publishing, Scheduling, and Managing Reports. ::
 
 
 Authors
 -------
+* `David Ghedini`_
+* `Kaloyan Petrov`_
 
-* David Ghedini
-* Kaloyan Petrov
+.. _`David Ghedini`: https://github.com/DavidGhedini
+.. _`Kaloyan Petrov`: https://github.com/kaloyan13
 
 
 
 Components
 ----------
 
-https://www.openstreetmap.org
+http://www.opal-consulting.de/downloads/free_tools/JasperReportsIntegration/
 
-http://www.geofabrik.de/
+https://community.jaspersoft.com/project/jasperreports-library
 
-http://mapnik.org/
+http://tomcat.apache.org/
 
-http://openlayers.org/
-
-http://leafletjs.com
-
-http://www.postgresql.org/
-
-http://postgis.net/
-
-https://github.com/gravitystorm/openstreetmap-carto
-
-https://github.com/mapbox/osm-bright
-
-
-
+https://openjdk.java.net/
 
     
 
