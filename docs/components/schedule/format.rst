@@ -81,7 +81,7 @@ File Name::
       Enter the desired file name WITH Extension.
       Example: ClassReports.pdf
 
-Select the desired Data Source for the report.
+Enter the desired Data Source for the report.
 
 
 Email::
@@ -89,34 +89,39 @@ Email::
    Options:
       Enter email address or comma separated list of addresses for delivery.
 
-Select the desired Data Source for the report.
+Enter the desired Data Source for the report.
+
+.. note::
+    If you do not wish to email the report, tick the "Don't send email" box.  
+    This will run the report and save it to disk on the server.
+    The report can be retrived via disk or downloaded via Reports tab.
+
 
 
 Optional Params
 ===============
 
-To publish a report, click the Publish tab as shown below. 
+The Optional Params tab allows you to:
 
-.. image:: _static/publish.png
+1. Set email subject
+2. Set email message
+3. Add report parameters
 
-Enter the name of the directory you wish to create as show below.  This will create a new directory, NewReports, under the main reports directory.
 
-Once text is entered, upload any files you wish to.
+URL Parameters
+===============
 
-.. image:: _static/publish-upload.png
+To add a Report Parameter to the report URL, enter the variable in the left box and the value in the right box as shown below:
 
-Options
-=======
+.. image:: _static/schedule-params.png
 
-There are four options for uploading files. 
 
-1. Local File - this is a file already on the device.
+Click the Save button.
 
-2. Uploaded File - upload from your local machine.
+.. image:: _static/schedule-optional-params.png
 
-3. HTTP or FTP URL - obtain files via HTTP or FTP
+You can add as many parameters as you wish to.
 
-Additionally, select the options to upload zip archives as well as to over-write any existing files (for when you publish updates to your reports).
 
 .. image:: _static/publish-options.png
 
