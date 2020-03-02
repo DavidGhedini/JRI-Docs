@@ -7,6 +7,14 @@ Overview
 JRI Publisher installs and configures Tomcat, Java, and JRI.  It also provides a module for Publishing, Scheduling, and Managing Reports. ::
 
 
+System Requirements
+-------------------
+CentOS 8
+Ubuntu 18
+Webmin
+Postfix
+
+
 Authors
 -------
 * `David Ghedini`_
