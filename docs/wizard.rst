@@ -2,7 +2,11 @@
 Wizard
 ************
 
-Once the module is installed, the Wizrd is used to configure the components:
+Once the module is installed, the Wizrd is used to configure the components.
+
+Go to Servers > JRI Publisher:
+
+.. image:: _static/3.png
 
 .. code:: console
 
