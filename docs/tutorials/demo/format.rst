@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-Leaflet
+Demo
 **********************
 
 .. contents:: Table of Contents
