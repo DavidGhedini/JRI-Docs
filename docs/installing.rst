@@ -7,6 +7,8 @@ Installation can be done using the pre-installer.sh script or via GIT.
 Using the Pre-Installer
 =======================
 
+:ref:`wizard-label`.
+
 :doc:`wizard.rst`
 
 On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the pre-installer script:
@@ -28,7 +30,9 @@ When the script completes, you will see the message below:
 
 
 .. note::
-    Following above, you will need to log in to Webmin to complete installation using the install Wizard.  See :ref:`webmin-label`.
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard.  See :ref:`wizard-label`.
+
+:doc:`wizard.rst`
 
 Via Git or Download
 ===================
@@ -43,4 +47,6 @@ You can use Git to build module for an existing Webmin installation:
 
     
 .. note::
-    Following above, you will need to log in to Webmin to complete installation using the install Wizard. :doc:`wizard.rst <wizard.rst>` 
+    Following above, you will need to log in to Webmin to complete installation using the install Wizard. :doc:`wizard.rst <wizard.rst>`   :ref:`wizard-label`.
+
+:doc:`wizard.rst`
