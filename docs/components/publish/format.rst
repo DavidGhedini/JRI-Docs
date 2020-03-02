@@ -32,15 +32,30 @@ You would also include any support files, such as image files.
 Creating Directories
 ====================
 
-To publish a report, click the Publish tab as shown below:
+To publish a report, click the Publish tab as shown below. 
 
 .. image:: _static/publish.png
 
-Enter the name of the directory you wish to create as show below.
+Enter the name of the directory you wish to create as show below.  This will create a new directory, NewReports, under the main reports directory.
 
 Once text is entered, upload any files you wish to.
 
 .. image:: _static/publish-upload.png
+
+Options
+=======
+
+There are four options for uploading files. 
+
+1. Local File - this is a file already on the device.
+
+2. Uploaded File - upload from your local machine.
+
+3. HTTP or FTP URL - obtain files via HTTP or FTP
+
+Additionally, select the options to upload zip archives as well as to over-write any existing files (for when you publish updates to your reports).
+
+.. image:: _static/publish-options.png
 
    
 
