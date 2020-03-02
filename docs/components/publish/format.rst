@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-PostgreSQL
+Publish
 **********************
 
 .. contents:: Table of Contents
