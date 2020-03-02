@@ -7,7 +7,7 @@
    :width: 1em
 
 **********************
-PostgreSQL
+Data Sources
 **********************
 
 .. contents:: Table of Contents
