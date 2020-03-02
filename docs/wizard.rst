@@ -2,7 +2,7 @@
 Wizard
 ************
 
-Install the package (or add it to your ``requirements.txt`` file):
+Once the module is installed, the Wizrd is used to configure the components:
 
 .. code:: console
 
