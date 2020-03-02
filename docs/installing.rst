@@ -30,11 +30,9 @@ You can use Git to build module for an existing Webmin installation:
 
 .. code:: console
 
-$ git clone https://github.com/cited/Tomcat-Webmin-Module
-
-$ mv Tomcat-Webmin-Module-master tomcat
-
-$ tar -cvzf tomcat.wbm.gz tomcat/
+    $ git clone https://github.com/cited/Tomcat-Webmin-Module
+    $ mv Tomcat-Webmin-Module-master tomcat
+    $ tar -cvzf tomcat.wbm.gz tomcat/
 
     
 .. note::
