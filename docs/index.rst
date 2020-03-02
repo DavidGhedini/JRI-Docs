@@ -1,6 +1,10 @@
 JRI Publisher
 ==================================================
 
+.. image:: _static/Untitled-6611.fw.png
+
+.. image:: _static/Untitled-12.fw.png
+
 .. include:: ../README.rst
 
 .. toctree::
