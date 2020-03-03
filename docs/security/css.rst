@@ -76,65 +76,65 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12) !important;
     margin-left: 0 !important;
     margin-right: 0 !important
-}
+   }
 
-html[data-script-name*='settings-editor_read.cgi'] #content .CodeMirror+.ui_form_end_buttons .btn {
+   html[data-script-name*='settings-editor_read.cgi'] #content .CodeMirror+.ui_form_end_buttons .btn {
     margin-left: 0 !important;
     margin-right: 0 !important
-}
+   }
 
-html[data-script-name*='settings-editor_read.cgi'] #content .CodeMirror+.ui_form_end_buttons td:last-child .btn {
+   html[data-script-name*='settings-editor_read.cgi'] #content .CodeMirror+.ui_form_end_buttons td:last-child .btn {
     margin-left: 0 !important;
     margin-right: 5px !important
-}
+   }
 
-.btn-group .btn,.btn {
+   .btn-group .btn,.btn {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-}
+   }
 
-.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+   .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-}
+   }
 
-.btn-group>.btn:last-child:not(:first-child):not(.dropdown-toggle) {
+   .btn-group>.btn:last-child:not(:first-child):not(.dropdown-toggle) {
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
-}
+   }
 
-body .btn.btn-primary {
+   body .btn.btn-primary {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(63, 81, 181) !important;
     border-color: rgb(63, 81, 181) !important;
-}
+   }
   body .btn.btn-default {
-color: rgba(0, 0, 0, 0.87);
+   color: rgba(0, 0, 0, 0.87);
     background-color: rgba(153, 153, 153, 0.2);
     border-color: rgba(153, 153, 153, 0.2);
     }
-body .btn.btn-success {
+   body .btn.btn-success {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(76, 175, 80) !important;
     border-color: rgb(76, 175, 80) !important;
-}
+   }
 
-.btn.btn-secondary {
+   .btn.btn-secondary {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(108, 117, 125) !important;
     border-color: rgb(108, 117, 125) !important;
-}
+   }
 
-.btn.btn-info, .btn.btn-inverse, .btn.ui_link.btn-inverse,.btn-tiny, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced, .btn-inverse {
+   .btn.btn-info, .btn.btn-inverse, .btn.ui_link.btn-inverse,.btn-tiny, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced, .btn-inverse {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(3, 169, 244) !important;
     border-color: rgb(3, 169, 244) !important;
-}
+   }
 
-.btn.btn-info:hover, .btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover,.btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover,
+   .btn.btn-info:hover, .btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover,.btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover,
 
-.btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover, .btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover{
+   .btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover, .btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover{
 border-color: rgb(255, 255, 255) !important;background-color: rgb(3, 169, 244) !important;
-}
+   }
 
 
 .btn:hover {
