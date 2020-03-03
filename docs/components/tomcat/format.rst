@@ -37,7 +37,7 @@ There are two ways to start/stop/restart Tomcat.
 
 1.  Via Module, using the Stop/Start/Restart buttons as shown below::
 
-   .. image:: _static/tomcat-functions.png
+   .. image:: _static/tomcat-tab.gif
 
 2.  Via SSH, using the following commands::
 
