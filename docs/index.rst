@@ -31,6 +31,7 @@ JRI Publisher
     :maxdepth: 2
     :caption: Resources
 
+    security/css
     security/format
     security/support
     security/license
