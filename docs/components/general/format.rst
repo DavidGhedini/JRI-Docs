@@ -69,13 +69,3 @@ To remove the Proxy, or edit or update Proxies, click on the Proxy tab as shown 
 Select the default Proxy of / as shown below and click Remove.
 
 .. image:: _static/proxy-remove.png
-
-
-
-
-
-
-It can also be used to un-install the selected JDK and replace it with a new version.
-
-
-.. image:: _static/java-installed.png
