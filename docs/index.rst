@@ -25,6 +25,7 @@ JRI Publisher
     components/publish/format
     components/schedule/format
     components/reports/format
+    components/jasper/format
 
 .. toctree::
     :maxdepth: 2
