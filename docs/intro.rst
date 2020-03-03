@@ -23,6 +23,19 @@ Webmin
 
 Postfix
 
+Editions
+--------
+JRI Publisher is available in two editions.
+
+* JRI Publisher
+
+* JRI Publisher Basic
+
+Both editions are Free, Open Source software.
+
+The JRI Publisher Basic edition does not contain the Schedule and Report tabs.  It is designed for those who simply want to get up and running quickly and easily with JasperReportsIntegration, as well as manage JasperReportsIntegration via Webmin.
+
+
 
 Authors
 -------
