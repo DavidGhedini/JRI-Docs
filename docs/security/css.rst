@@ -57,13 +57,13 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     font-weight: 400
    }
 
-   .btn:not(.btn-round), button.btn:not(.btn-round), .csf-container input[type='submit']:not(.btn-round), .csf-container button.input:not(.btn-round), input[type='submit']:not(.btn-round) {
+   .btn:not(.btn-round), button.btn:not(.btn-round), .csf-container input[type='submit']:not(.btn-round), .csf-container   button.input:not(.btn-round), input[type='submit']:not(.btn-round) {
     text-align: center;
     vertical-align: middle;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.325em !important;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-  out;
     text-transform: uppercase;
     cursor: pointer;
     border: 0;
@@ -133,69 +133,65 @@ In addition to making the screens a bit more vivid, it also increaes the size of
    .btn.btn-info:hover, .btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover,.btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover,
 
    .btn.btn-inverse:hover, .btn.ui_link.btn-inverse:hover, .btn-tiny:hover, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced:hover, .btn-inverse:hover{
-border-color: rgb(255, 255, 255) !important;background-color: rgb(3, 169, 244) !important;
+   border-color: rgb(255, 255, 255) !important;background-color: rgb(3, 169, 244) !important;
    }
 
-
-.btn:hover {
+   .btn:hover {
     cursor: pointer !important;
-}
-.btn.btn-warning {
+   }
+   .btn.btn-warning {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(255, 87, 34) !important;
     border-color: rgb(255, 87, 34) !important;
-}
+   }
 
-.btn.btn-danger {
+   .btn.btn-danger {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(244, 67, 54) !important;
     border-color: rgb(244, 67, 54) !important;
-}
-
-
--
-.alert-success {
+   }
+   .alert-success {
     color: rgb(40, 91, 42);
     background-color: rgb(219, 239, 220);
     border-color: rgb(205, 233, 206);
-}.alert-danger {
+   }.alert-danger {
     color: rgb(127, 35, 28);
     background-color: rgb(253, 217, 215);
     border-color: rgb(252, 202, 199);
-}.alert-primary {
+   }.alert-primary {
     color: rgb(33, 42, 94);
     background-color: rgb(217, 220, 240);
     border-color: rgb(201, 206, 234);
-}.alert-secondary {
+   }.alert-secondary {
     color: rgb(56, 61, 65);
     background-color: rgb(226, 227, 229);
     border-color: rgb(214, 216, 219);
-}.alert-warning {
+   }.alert-warning {
     color: rgb(133, 45, 18);
     background-color: rgb(255, 221, 211);
     border-color: rgb(255, 208, 193);
-}.alert-info {
+   }.alert-info {
     color: rgb(2, 88, 127);
     background-color: rgb(205, 238, 253);
     border-color: rgb(184, 231, 252);
-}.alert-light {
+   }.alert-light {
     color: rgb(127, 127, 127);
     background-color: rgb(253, 253, 253);
     border-color: rgb(252, 252, 252);
-}.alert-dark {
+   }.alert-dark {
     color: rgb(34, 34, 34);
     background-color: rgb(217, 217, 217);
     border-color: rgb(202, 202, 202);
-}
-#right-side-tabs .btn-tiny.ui_submit.ui_form_end_submit, #content #system-status .btn-tiny.ui_submit.ui_form_end_submit {
+   }
+   #right-side-tabs .btn-tiny.ui_submit.ui_form_end_submit, #content #system-status .btn-tiny.ui_submit.ui_form_end_submit {
     line-height: 21px;
     padding: 5px 12px !important;    height: 32px !important;
-}
-.table-subtable tbody tr td, .panel-body .table-subtable tr th, .panel-body .table-subtable tr td, .table-subtable tbody tr td, .panel-body tr th, .panel-body tr td {
+   }
+   .table-subtable tbody tr td, .panel-body .table-subtable tr th, .panel-body .table-subtable tr td, .table-subtable tbody tr td, .panel-body tr th, .panel-body tr td {
     padding: .75rem !important;
-}
+   }
 
-  body.csf .dataTables_filter input[type='search'], body .dataTables_filter input[type='search'], .csf-container input[type='text'], .csf-container input[type='search'], .csf-container input, .csf-container select, input[id^='CSF'], input[type='button'], input[type='reset'], input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login), input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn), .csf-container input[type='text'], .csf-container input[type='search'], .chooser_button, .form-control {
+   body.csf .dataTables_filter input[type='search'], body .dataTables_filter input[type='search'], .csf-container input[type='text'], .csf-container input[type='search'], .csf-container input, .csf-container select, input[id^='CSF'], input[type='button'], input[type='reset'], input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login), input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn),   .csf-container input[type='text'], .csf-container input[type='search'], .chooser_button, .form-control {
     font-size: 1rem;
     box-sizing: content-box;
     width: 100%;
@@ -210,7 +206,7 @@ border-color: rgb(255, 255, 255) !important;background-color: rgb(3, 169, 244) !
     outline: 0;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;font-size:16px;padding-left:5px;padding-right:5px;
-}
+   }
 
 input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login):focus, input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn):focus, .csf-container input[type='text']:focus, .csf-container input[type='search']:focus, .chooser_button:focus, .form-control:focus{
 border-bottom-width:2px;border-bottom-color :  rgb(63, 81, 181)
