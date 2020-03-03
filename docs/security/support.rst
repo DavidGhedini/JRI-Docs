@@ -2,13 +2,13 @@
 Project Support
 ---------------
 
-# Contributing
+Contributing
 
-## Issues
+Issues
 
 If you've found a bug, let us know about it.
 
-## Pull Requests
+Pull Requests
 
 For all cases, you should have your own fork of the repo.
 
