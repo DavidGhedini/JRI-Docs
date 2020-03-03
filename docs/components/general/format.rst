@@ -54,3 +54,28 @@ It can also be used to un-install the selected JDK and replace it with a new ver
 
 
 Note that when installing or removing, there is an option to set as System default.
+
+Proxy
+=========
+
+By default, JRI Publisher enables a Proxy for Apache and maps it to 80:8080.
+
+While this is convenient for development and intranet use, in production you should remove the proxy.
+
+To remove the Proxy, or edit or update Proxies, click on the Proxy tab as shown below.
+
+.. image:: _static/proxy.png
+
+Select the default Proxy of / as shown below and click Remove.
+
+.. image:: _static/proxy-remove.png
+
+
+
+
+
+
+It can also be used to un-install the selected JDK and replace it with a new version.
+
+
+.. image:: _static/java-installed.png
