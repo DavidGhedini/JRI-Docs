@@ -16,11 +16,11 @@ Publishing Reports
 
 To publish a report, click the Publish tab as shown below:
 
-.. image:: _static/publish.png
+.. image:: _static/publish-tab.gif
 
 This will open the screen below.  
 
-.. image:: _static/publish-new.png
+.. image:: _static/publish-default.gif
 
 .. note::
     The file browser location is set to /home/tomcat/apache-tomcat-v/jasper_reports/reports
@@ -34,13 +34,17 @@ Creating Directories
 
 To publish a report, click the Publish tab as shown below. 
 
-.. image:: _static/publish.png
+.. image:: _static/publish-tab.gif
 
 Enter the name of the directory you wish to create as show below.  This will create a new directory, NewReports, under the main reports directory.
 
 Once text is entered, upload any files you wish to.
 
-.. image:: _static/publish-upload.png
+.. image:: _static/publish-browse.gif
+
+Note that once a Directory has been created, it will be added to the availbale directories for subsequent publications:
+
+.. image:: _static/publish-new.gif
 
 Options
 =======
