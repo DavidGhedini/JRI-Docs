@@ -63,12 +63,14 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.325em !important;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-  out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow 
+    .15s ease-in-       out;
     text-transform: uppercase;
     cursor: pointer;
     border: 0;
     outline: 0;
-    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1) !important;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color 
+    .2s cubic-bezier(.4,0,.2,1) !important;
     will-change: box-shadow,transform;
     color: rgba(0,0,0,.87);
     background-color: rgb(255, 255, 255);
@@ -124,7 +126,7 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     border-color: rgb(108, 117, 125) !important;
    }
 
-   .btn.btn-info, .btn.btn-inverse, .btn.ui_link.btn-inverse,.btn-tiny, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced, .btn-inverse {
+   .btn.btn-info, .btn.btn-inverse, .btn.ui_link.btn-inverse,.btn-tiny, .ui_link.btn.btn-inverse.btn-tiny.ui_link_replaced,   .btn-inverse {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(3, 169, 244) !important;
     border-color: rgb(3, 169, 244) !important;
