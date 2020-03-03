@@ -16,11 +16,11 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     border-radius: 25px!important;
     -webkit-filter: none!important;
     filter: none!important;
-}
+   }
 
-html[data-theme="brown"] #sidebar {
+   html[data-theme="brown"] #sidebar {
     background: 
-darkslategray!important;}
+   darkslategray!important;}
 
 .panel-default>.panel-heading {
     color: #fff;
