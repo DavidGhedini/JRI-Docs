@@ -3,22 +3,32 @@ Project Support
 ---------------
 
 Contributing
+========================
+We welcome all contributors.  
+
+While any code contributions are welcome, areas that could use improvement are:
+
+    * Providing feedback
+    * Email Formating
+    * iReport Library Updates
+
 
 Issues
-
-If you've found a bug, let us know about it.
+========================
+If you've found a bug, let us know.
 
 Pull Requests
+========================
 
-For all cases, you should have your own fork of the repo.
+Create a fork of our repo.
 
 To submit a pull request for a **new feature**:
 
-1. Run the tests.  Every pull request for a new feature should have an accompanying unit test and docs changes.  See the `README.md` in the `tests/` and `docs/` directories for details.
-2. Create a new branch off of the `master` branch for your feature.  This is particularly helpful when you want to submit multiple pull requests.
-3. Add a test (or multiple tests) for your feature.  Again, see `tests/README.md`.
-4. Add your new feature, making the test pass.
-5. Push to your fork and submit the pull request!
+1. Run the tests.  Every pull request for a new feature should have an accompanying unit test and docs changes.
+2. Create a new branch off of the `master` branch for your feature.  
+3. Add a test (or multiple tests) for your feature.  
+4. Add your new feature.
+5. Push to your fork and submit the pull request.
 
 To submit a **bug fix**:
 
