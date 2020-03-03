@@ -58,9 +58,11 @@ Note that when installing or removing, there is an option to set as System defau
 Proxy
 =========
 
-By default, JRI Publisher enables a Proxy for Apache and maps it to 80:8080.
+By default, JRI Publisher enables a Proxy for Apache and maps it to 8080 to 80.
 
-While this is convenient for development and intranet use, in production you should remove the proxy.
+This enables you to reach reports via http://yourdomain.com/JasperReportsIntegration without need to add the 8080 port.
+
+While this is convenient for development or intranet use, in production you should remove the proxy.
 
 To remove the Proxy, or edit or update Proxies, click on the Proxy tab as shown below.
 
