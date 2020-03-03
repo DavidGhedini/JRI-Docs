@@ -191,7 +191,7 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     padding: .75rem !important;
    }
 
-   body.csf .dataTables_filter input[type='search'], body .dataTables_filter input[type='search'], .csf-container input[type='text'], .csf-container input[type='search'], .csf-container input, .csf-container select, input[id^='CSF'], input[type='button'], input[type='reset'], input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login), input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn),   .csf-container input[type='text'], .csf-container input[type='search'], .chooser_button, .form-control {
+   body.csf .dataTables_filter input[type='search'], body .dataTables_filter input[type='search'], .csf-container    input[type='text'], .csf-container input[type='search'], .csf-container input, .csf-container select, input[id^='CSF'],    input[type='button'], input[type='reset'],   input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login),   input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn),     .csf-container input[type='text'], .csf-container input[type='search'], .chooser_button, .form-control {
     font-size: 1rem;
     box-sizing: content-box;
     width: 100%;
@@ -208,20 +208,20 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     box-shadow: none;font-size:16px;padding-left:5px;padding-right:5px;
    }
 
-input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login):focus, input[name]:not([type='image']):not(.sidebar-search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn):focus, .csf-container input[type='text']:focus, .csf-container input[type='search']:focus, .chooser_button:focus, .form-control:focus{
-border-bottom-width:2px;border-bottom-color :  rgb(63, 81, 181)
-}
+   input[name]:not([type='image']):not([type='checkbox']):not([type='radio']):not(.btn):not(.session_login):focus,   input[name]:not([type='image']):not(.sidebar-   search):not([type='button']):not([type='checkbox']):not([type='radio']):not(.btn):focus, .csf-container  input[type='text']:focus, .csf-container input[type='search']:focus, .chooser_button:focus, .form-control:focus{
+   border-bottom-width:2px;border-bottom-color :  rgb(63, 81, 181)
+   }
 
-li.user-link, li.user-link span, li.user-link, li.user-link i {
+   li.user-link, li.user-link span, li.user-link, li.user-link i {
     background: rgb(85, 189, 212);
     color: rgb(255, 255, 255) !important;
     border-radius: 5px !important;
     border: 0 !important;
     line-height: 18px;
-}
-html[data-theme="brown"] #sidebar .form-group .form-control.sidebar-search::placeholder{
-color:#bbb !important
-}
-html[data-theme="brown"] #sidebar .form-group .form-control.sidebar-search{
-color: #fff!important;
-}
+   }
+   html[data-theme="brown"] #sidebar .form-group .form-control.sidebar-search::placeholder{
+   color:#bbb !important
+   }
+   html[data-theme="brown"] #sidebar .form-group .form-control.sidebar-search{
+   color: #fff!important;
+   }
