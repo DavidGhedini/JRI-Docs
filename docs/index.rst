@@ -34,6 +34,7 @@ JRI Publisher
     resources/css
     resources/security
     resources/support
+    resources/commercial
     resources/license
     
     
