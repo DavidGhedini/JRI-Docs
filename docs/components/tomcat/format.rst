@@ -27,7 +27,7 @@ The CATALINA_HOME variable is set both in the Tomcat init script as well as sete
 JRI File Locations
 ==================
 
-For JaspeReportsIntegration layout and customization options, please see the :ref:`jri-label`. section below.
+For JaspeReportsIntegration layout and customization options, please see the Jasper section below.
 
 
 Starting and Stoping
