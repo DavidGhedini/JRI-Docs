@@ -4,7 +4,7 @@ Intro
 Overview
 ------------
 
-JRI Publisher is a module that installs, configures, and manages Tomcat, Java, and JasperReportsIntegration via a UI. 
+JRI Publisher is a Webmin module that installs, configures, and manages Tomcat, Java, and JasperReportsIntegration via a UI. 
 
 It also provides Publishing, Scheduling, and Report Management.
 
