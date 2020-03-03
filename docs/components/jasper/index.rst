@@ -1,4 +1,4 @@
-
+.. _jri-label:
 .. This is a comment. Note how any initial comments are moved by
    transforms to after the document title, subtitle, and docinfo.
 
@@ -109,3 +109,4 @@ Version
 =======
 
 The JasperReportsIntegration version is the one selected while using the install Wizard.
+
