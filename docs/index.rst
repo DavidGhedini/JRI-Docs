@@ -19,22 +19,22 @@ JRI Publisher
     :maxdepth: 3
     :caption: Components
 
-    components/general/format
-    components/tomcat/format
-    components/datasources/format
-    components/publish/format
-    components/schedule/format
-    components/reports/format
-    components/jasper/format
+    components/general/index
+    components/tomcat/index
+    components/datasources/index
+    components/publish/index
+    components/schedule/index
+    components/reports/index
+    components/jasper/index
 
 .. toctree::
     :maxdepth: 2
     :caption: Resources
 
-    security/css
-    security/format
-    security/support
-    security/license
+    resources/css
+    resources/security
+    resources/support
+    resources/license
     
     
     
