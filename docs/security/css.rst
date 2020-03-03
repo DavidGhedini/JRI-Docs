@@ -32,32 +32,32 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
    }
-.panel-default , .panel{ 
+   .panel-default , .panel{ 
     border-bottom-left-radius: 5px !important;border-top:0 !important;border-top-width: 0px;
     border-bottom-right-radius: 5px !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
-}
+   }
 
-.row.icons-row .icons-container:not(.highlighted) {
+   .row.icons-row .icons-container:not(.highlighted) {
     border-radius: 5px !important;
     background: rgb(255, 255, 255) !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
-}
+   }
 
-h2.form-signin-heading {
+   h2.form-signin-heading {
     display: none !important;
-}
+   }
 
-i.wbm-webmin {
+   i.wbm-webmin {
     display: none !important;
-}
+   }
 
-.card {
+   .card {
     font-size: .875rem;
     font-weight: 400
-}
+   }
 
-.btn:not(.btn-round), button.btn:not(.btn-round), .csf-container input[type='submit']:not(.btn-round), .csf-container button.input:not(.btn-round), input[type='submit']:not(.btn-round) {
+   .btn:not(.btn-round), button.btn:not(.btn-round), .csf-container input[type='submit']:not(.btn-round), .csf-container button.input:not(.btn-round), input[type='submit']:not(.btn-round) {
     text-align: center;
     vertical-align: middle;
     font-size: 1rem;
