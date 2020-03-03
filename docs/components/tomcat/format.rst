@@ -27,25 +27,7 @@ The CATALINA_HOME variable is set both in the Tomcat init script as well as sete
 JRI File Locations
 ==================
 
-On installation, the JRI files are saved to::
-
-   /home/tomcat/apache-tomcat-v/jasper_reports
-   
-Here, you will find the following::
-
-   /home/tomcat/apache-tomcat-v/jasper_reports/conf
-   
-   /home/tomcat/apache-tomcat-v/jasper_reports/schedules
-   
-   /home/tomcat/apache-tomcat-v/jasper_reports/reports
-   
-   /home/tomcat/apache-tomcat-v/jasper_reports/logs
-   
-reports contains your Jasper report files.
-
-conf contains the application.properties file
-
-schedules contains the .sh files for the Scheduler
+While JaspeReportsIntegration is deployed in the Tomcat container, for layout and customization options, please see the Jasper Section below.
 
 
 Starting and Stoping
