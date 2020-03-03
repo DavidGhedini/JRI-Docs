@@ -44,14 +44,12 @@ http://tomcat.apache.org/
 https://openjdk.java.net/
 
 
-Commercial Support
------------------
+Open Source
+-----------
 
-Commercial Support is available via `Enciva LLC`_
+JRI Publisher is Free, Open Source Software.
 
-.. _`Enciva LLC`: https://www.enciva.com
-
-In addition to JRI Publisher, Enciva also offers a multi-user edition written in PHP.
+GNU GENERAL PUBLIC LICENSE v3
 
 
 
