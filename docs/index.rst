@@ -29,9 +29,11 @@ JRI Publisher
 
 .. toctree::
     :maxdepth: 2
-    :caption: Security
+    :caption: Resources
 
     security/format
+    security/support
+    security/license
     
     
     
