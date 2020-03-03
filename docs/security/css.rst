@@ -226,3 +226,5 @@ In addition to making the screens a bit more vivid, it also increaes the size of
 	html[data-theme="brown"] #sidebar .form-group .form-control.sidebar-search{
 	color: #fff!important;
 	}
+
+Above can be pasted into Extensions
