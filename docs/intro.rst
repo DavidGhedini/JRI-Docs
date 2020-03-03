@@ -15,13 +15,12 @@ It also provides Publishing, Scheduling, and Report Management.
 
 System Requirements
 -------------------
-CentOS 8
-
-Ubuntu 18
-
-Webmin
-
-Postfix
+* CentOS 8 or 
+* Ubuntu 18
+* Webmin
+* Postfix
+* 1 GB Ram
+* 10 GB SSD
 
 Authors
 -------
