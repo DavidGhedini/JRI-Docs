@@ -22,16 +22,16 @@ In addition to making the screens a bit more vivid, it also increaes the size of
     background: 
    darkslategray!important;}
 
-.panel-default>.panel-heading {
+   .panel-default>.panel-heading {
     color: #fff;
     background-color: rgb(0, 188, 212)!important;text-align:left !important;
     
-}
+   }
 
-.panel-default>.panel-heading, .panel-default { 
+   .panel-default>.panel-heading, .panel-default { 
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
-}
+   }
 .panel-default , .panel{ 
     border-bottom-left-radius: 5px !important;border-top:0 !important;border-top-width: 0px;
     border-bottom-right-radius: 5px !important;
