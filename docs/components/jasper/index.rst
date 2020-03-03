@@ -13,8 +13,14 @@ Jasper
 
 .. contents:: Table of Contents
 
-JRI File Locations
-==================
+JasperReportsIntegration
+========================
+
+The information below pertains to the deployment of JasperReportsIntegration in JRI Publisher.  For full documentation of JasperReportsIntegration, please see http://www.opal-consulting.de/downloads/free_tools/JasperReportsIntegration/
+
+
+File Locations
+==============
 
 On installation, the JRI files are saved to::
 
@@ -30,16 +36,16 @@ Here, you will find the following::
    
    /home/tomcat/apache-tomcat-v/jasper_reports/logs
    
-reports contains your Jasper report files.
+** reports ** contains your Jasper report files.
 
-conf contains the application.properties file
+** conf ** contains the application.properties file
 
-schedules contains the .sh files for the Scheduler
+** schedules ** contains the .sh files for the Scheduler
 
 
 Gen Script
 ==========
-The Tomcat init script is located under /etc/init.d/gen_jri_report.sh and has the contents below::
+The Report Scheduler script is located under /etc/init.d/gen_jri_report.sh and can be customized to suit and extend your requirements::
 
 
 
@@ -77,10 +83,29 @@ The Tomcat init script is located under /etc/init.d/gen_jri_report.sh and has th
 
 
 
+JRI Module Files
+================
 
+On installation, the JRI Module files are saved to::
+
+   /usr/libexec/webmin/jri_publisher (CentOS)
+   /usr/share/webmin/jri_publisher (Ubuntu)
+   
+The JRI Module configuration files are located at /etc/webmin/jri_publisher::
+
+   
+   /etc/webmin/jri_publisher/config
+   /etc/webmin/jri_publisher/openjdk_version_cache
+   /etc/webmin/jri_publisher/oracle_version_cache
+      
+reports contains your Jasper report files.
+
+conf contains the application.properties file
+
+schedules contains the .sh files for the Scheduler
 
 
 Version
 =======
 
-JRI Publisher has been tested with Tomcat 9.x
+The JasperReportsIntegration version is the one selected while using the install Wizard.
