@@ -44,3 +44,20 @@ You can use Git to build module for an existing Webmin installation:
     
 .. note::
     Following above, you will need to log in to Webmin to complete installation using the install :ref:`wizard-label`.
+    
+    
+Postfix
+===================
+
+In order to use the email functionality for Report Scheduling, a working MTA is required.
+
+If one is not already installed, the simplest to install is Postfix.
+
+Postfix can be installed on Webmin.
+
+Navigate to Servers > Unused Modules > Postfix Mail Server
+
+Accept the defaults and click "Install Now" as shown below.
+
+.. image:: _static/Postfix-install.png
+
