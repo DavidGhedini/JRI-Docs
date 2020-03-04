@@ -10,7 +10,7 @@ JRI Publisher is a Webmin module that installs, configures, and manages Tomcat, 
 
 It also provides Publishing, Scheduling, and Report Management.
 
-.. image:: _static/JRI-Publisher-Main.gif
+.. image:: _static/JRI-Publisher-Main.png
 
 
 System Requirements
