@@ -45,7 +45,10 @@ Here, you will find the following::
 
 Gen Script
 ==========
-The Report Scheduler script is located under /etc/init.d/gen_jri_report.sh and can be customized to suit and extend your requirements::
+The Report Scheduler script is located under /etc/init.d/gen_jri_report.sh and can be customized to suit and extend your requirements.
+
+.. code-block:: bash
+   :linenos:
 
 
 
