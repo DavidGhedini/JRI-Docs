@@ -14,7 +14,7 @@ Report Dashboard
 Overview
 ==================
 
-Clicking the Reports tab will open the Reports Dashboard as shown below.
+Click the Reports tab to open the Reports Dashboard.
 
 .. image:: _static/reports-tab.png
 
