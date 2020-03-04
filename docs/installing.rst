@@ -9,7 +9,7 @@ Using the Pre-Installer
 
 On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the pre-installer script:
 
-.. code:: console
+.. code-block:: bash
 
     $ ./pre-install-jrip-centos.sh
     
