@@ -20,9 +20,9 @@ JRI Publisher supports both JDBC and JNDI Data Source types included with JRI.
 
 JDBC Data Sources are stored in a flat file at::
 
-   /home/tomcat/apache-tomcat-v/jasper_reports/conf/
+    ${CATALINA_HOME}/jasper_reports/conf/
    
-DBC Data Sources have the following form::
+JDBC Data Sources have the following form::
 
    #====================================================================
    # JDBC datasource configuration
@@ -51,7 +51,7 @@ JNDI Data Sources have the following form::
 Working with Data Sources
 =========================
 
-Data Sources can be added, edited, and removed the JRI Publisher Module via the Data Source tab, as shown below
+Data Sources can be added, edited and removed from the JRI Publisher Module via the Data Source tab, as shown below
 
 .. image:: _static/data-source-tab.png
 
@@ -61,7 +61,7 @@ The default view on clicking the tab is the List view, as shown below.
 
 To add a Data Source, click on the Add tab at top.
 
-Select the desired Data Source type and enter the required information as shown below. Then click the Create button:
+Select the desired Data Source type and enter the required information as shown below. Then click the Add button:
 
 .. image:: _static/add-data-source.png
 
