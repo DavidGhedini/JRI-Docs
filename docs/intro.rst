@@ -35,13 +35,22 @@ Authors
 Components
 ----------
 
-http://www.opal-consulting.de/downloads/free_tools/JasperReportsIntegration/
+`JasperReportsIntegration`_
 
-https://community.jaspersoft.com/project/jasperreports-library
+.. _`JasperReportsIntegration`: https://www.opal-consulting.de/downloads/free_tools/JasperReportsIntegration/ 
 
-http://tomcat.apache.org/
+`Jasper Reports Library`_
 
-https://openjdk.java.net/
+.. _`Jasper Reports Library`: https://community.jaspersoft.com/project/jasperreports-library 
+
+`Apache Tomcat`_
+
+.. _`Apache Tomcat`: http://tomcat.apache.org/ 
+
+`OpenJDK`_
+
+.. _`OpenJDK`: https://openjdk.java.net/
+ 
 
 
 Open Source
