@@ -22,12 +22,14 @@ Select the JDK you wish to use.  We have tested with JDK 8
 
 .. image:: _static/5-java.png
 
+JRI Publihsher has been tested with OpenJDK 8 and Oracle JDK 8.
+
 
 **Apache Tomcat:**  
 
 .. image:: _static/8-tomcat.png
 
-We have test with Tomcat 9.x:
+JRI Publihsher has been tested with Apache Tomcat 8.x and 9.x:
 
 .. image:: _static/9-tomcat.png
 
@@ -36,7 +38,7 @@ We have test with Tomcat 9.x:
 
 .. image:: _static/13-jri.png
 
-We have tested with 2.4.0:
+JRI Publihsher has been tested with JasperReportsIntegration 2.4.0 and 2.5.1:
 
 .. image:: _static/14-jri.png
 
