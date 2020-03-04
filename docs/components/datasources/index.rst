@@ -53,21 +53,25 @@ Working with Data Sources
 
 Data Sources can be added, edited, and removed the JRI Publisher Module via the Data Source tab, as shown below
 
-.. image:: _static/data-source-tab.gif
+.. image:: _static/data-source-tab.png
 
 The default view on clicking the tab is the List view, as shown below.
 
-.. image:: _static/data-source-default.gif
+.. image:: _static/data-source-default.png
 
 To add a Data Source, click on the Add tab at top.
 
 Select the desired Data Source type and enter the required information as shown below. Then click the Create button:
 
-.. image:: _static/add-data-source.gif
+.. image:: _static/add-data-source.png
+
+On the main Data Source tab we can confirm the Data Source has been added:
+
+.. image:: _static/data-source-added-ok.png
 
 To remove a Data Source, click on the Remove tab and select the Data Source you wish to remove using the drop-down selector as shown below:
 
-.. image:: _static/data-source-remove.gif
+.. image:: _static/data-source-remove.png
 
 
 
