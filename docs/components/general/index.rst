@@ -53,7 +53,7 @@ Java
 =========
 .. image:: _static/java-tab.png
 
-The Java tab is during installation for installing the JDK and configuration.
+The Java tab is used during installation as well as for updating of JDK.
 
 It can also be used to un-install the selected JDK and replace it with a new version.
 
