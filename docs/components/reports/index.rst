@@ -16,11 +16,11 @@ Overview
 
 Clicking the Reports tab will open the Reports Dashboard as shown below.
 
-.. image:: _static/reports-tab.gif
+.. image:: _static/reports-tab.png
 
 This will open the screen below.  
 
-.. image:: _static/report-dashboard.gif
+.. image:: _static/report-dashboard.png
 
 As we can see above, the creation of our NewReports Directory has been added to the directory structure.  This is true for all directories and sub directories added.
 
@@ -29,7 +29,7 @@ Dashboard Layout
 
 Expanding the NewReports directory, we see below:
 
-.. image:: _static/report-dashboard-item.gif.png
+.. image:: _static/report-dashboard-item.png
 
 
 Dashboard Functions
@@ -39,7 +39,7 @@ Dashboard Functions
 
  Clicking on the report name will open the .jrxml file for editing, as shown below:
  
-.. image:: _static/reports-edit-jrxml.gif
+.. image:: _static/reports-edit-jrxml.png
  
  
 **Actions**::
@@ -51,11 +51,11 @@ Run:  Runs the report on demand.
 
 Clean: Opens a new window to delete any reports you may wish to delete
 
-.. image:: _static/reports-cleaner.gif 	
+.. image:: _static/reports-cleaner.png 	
 
 Download:  Opens a new window to download selected report(s) in .zip or .bgz format.
 
-.. image:: _static/reports-downloader.gif 	
+.. image:: _static/reports-downloader.png 	
 
 
 **SchID**::
@@ -78,7 +78,7 @@ Displays report Data Source
 
 Clicking the Browse button will open the report directory in the File Manager as shown below:
 
-.. image:: _static/reports-browse.gif
+.. image:: _static/reports-browse.png
 
 
 **Email**::
@@ -97,7 +97,7 @@ No Schedule
     Any report that does not have a schedule will show the Scheduler icon in the Actions menu.  To add a Schedule, click the icon as shown below.
 
  
-.. image:: _static/reports-no-schedule.gif
+.. image:: _static/reports-no-schedule.png
 
    
 
