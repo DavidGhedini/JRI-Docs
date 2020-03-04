@@ -48,7 +48,7 @@ Once each step of the Wizard is completed, the Wizard can be removed:
 
 With the Wizard completed, your module should appear as below:
 
-.. image:: _static/start-jri.gif
+.. image:: _static/start-jri.png
 
 
 
