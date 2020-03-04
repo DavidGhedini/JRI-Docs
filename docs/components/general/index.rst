@@ -14,7 +14,7 @@ General
 Edit Config
 =============
 
-.. image:: _static/edit-config.gif
+.. image:: _static/config-tab.png
 
 The Config tab is used to edit the following files::
 
@@ -30,14 +30,14 @@ These files can also be edit via the file system.
 
 Apps
 ====
-.. image:: _static/apps.gif
+.. image:: _static/apps-tab.png
 
 The Apps manager allows you to deploy, undeploy, and redeploy WAR files in Tomcat
 
    
 Libraries
 =========
-.. image:: _static/libs.gif
+.. image:: _static/libs-tab.png
 
 The Libraries tab is for managing Jar files under /home/tomcat/<tomcat-version>/libs
 
@@ -48,7 +48,7 @@ The advantage of the Libraries tab is that is tracks Jar files installed, allowi
 
 Java
 =========
-.. image:: _static/java.gif
+.. image:: _static/java-tab.png
 
 The Java tab is during installation for installing the JDK and configuration.
 
