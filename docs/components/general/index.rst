@@ -25,25 +25,28 @@ The Config tab is used to edit the following files::
    tomcat-users.xml
    setenv.sh
    
-These files can also be edit via the file system.
+These files can, of course, be edited via the file system or VI as well.
 
 
 Apps
 ====
 .. image:: _static/apps-tab.png
 
-The Apps manager allows you to deploy, undeploy, and redeploy WAR files in Tomcat
+The Apps manager allows you to deploy, undeploy, and redeploy WAR files in Apache Tomcat
 
    
 Libraries
 =========
 .. image:: _static/libs-tab.png
 
-The Libraries tab is for managing Jar files under /home/tomcat/<tomcat-version>/libs
+The Libraries tab is for managing Jar files under::
 
-This can also be done via file system, of course.
+   /home/tomcat/<tomcat-version>/libs
 
-The advantage of the Libraries tab is that is tracks Jar files installed, allowing you to easily roll back changes.
+These files can, of course, via the file system.
+
+.. note::
+   The advantage of the Libraries tab is that it tracks Jar files installed,  This allows you to easily roll back changes.
 
 
 Java
@@ -58,7 +61,9 @@ It can also be used to un-install the selected JDK and replace it with a new ver
 .. image:: _static/java-installed.png
 
 
-Note that when installing or removing, there is an option to set as System default.
+.. note::
+    When installing or removing, there is an option to set as System default.
+
 
 Proxy
 =========
@@ -67,9 +72,11 @@ By default, JRI Publisher enables a Proxy for Apache and maps it to 8080 to 80.
 
 This enables you to reach reports via http://yourdomain.com/JasperReportsIntegration without need to add the 8080 port.
 
-While this is convenient for development or intranet use, in production you should remove the proxy.
+.. warning::
 
-To remove the Proxy, or edit or update Proxies, click on the Proxy tab as shown below.
+   While the proxy is convenient for development or intranet use, in production you should remove the proxy.  To remove the Proxy, follow the steps below:
+   
+To edit, remove, or update Proxies, click on the Proxy tab as shown below.
 
 .. image:: _static/proxy.png
 
