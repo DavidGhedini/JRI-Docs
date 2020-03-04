@@ -4,15 +4,17 @@
 Wizard
 ************
 
-Once the module is installed, the Wizrd is used to configure the components.
+Once the module is installed, the Wizard is used to configure the components.
 
 Go to Servers > JRI Publisher:
 
 .. image:: _static/3.png
 
-The main Wizard screen will then display each step.
+The main Wizard screen will a link for completing each step.
 
 While most steps are self-explanatory, we will cover Tomcat, JDK, and JRI selection below:
+
+**Install Java/JDK:**
 
 .. image:: _static/4-java.png
 
@@ -21,7 +23,7 @@ Select the JDK you wish to use.  We have tested with JDK 8
 .. image:: _static/5-java.png
 
 
-With JDK selected, select Tomcat version below.  
+**Apache Tomcat:**  
 
 .. image:: _static/8-tomcat.png
 
@@ -30,7 +32,7 @@ We have test with Tomcat 9.x:
 .. image:: _static/9-tomcat.png
 
 
-With Tomcat installed, select JRI version below.  
+**Install JasperReportsIntegration:**
 
 .. image:: _static/13-jri.png
 
@@ -38,10 +40,10 @@ We have tested with 2.4.0:
 
 .. image:: _static/14-jri.png
 
-If you wish to use a Beta version of JRI, tick the "Show Beta Versions" box:  
+.. note::
+    If you wish to use a Beta version of JasperReporsIntegration, tick the "Show Beta Versions" select box 
 
-.. image:: _static/15-jri.png
-
+ 
 Once each step of the Wizard is completed, the Wizard can be removed:
 
 .. image:: _static/19-donei.png
@@ -55,7 +57,7 @@ With the Wizard completed, your module should appear as below:
 .. note::
     The JRI application is not deployed at this point.  You need to Start Tomcat
     in order to deploy it.  Do so before any further operations as it is required
-    in order to write configuration files, etc...
+    to write configuration files, etc...
     
 
 About Haveged
