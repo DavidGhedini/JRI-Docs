@@ -9,7 +9,8 @@ Using the Pre-Installer
 
 On a fresh CentOS 8 or Ubuntu 18 installation, the fastest method is to use the pre-installer script:
 
-.. code-block:: bash
+.. code-block:: console
+   :linenos:
 
     $ ./pre-install-jrip-centos.sh
     
@@ -17,7 +18,8 @@ The above will install Webmin, Apache HTTPD Server, JRI Publisher module, as wel
 
 When the script completes, you will see the message below:
 
-.. code:: console
+.. code-block:: console
+   :linenos:
 
     $ /opt ~
     $ Installed CertBot in /usr/share/webmin/certbot (336 kb)
@@ -35,7 +37,8 @@ Via Git or Download
 
 You can use Git to build module for an existing Webmin installation:
 
-.. code:: console
+.. code-block:: console
+   :linenos:
 
     $ git clone https://github.com/cited/Tomcat-Webmin-Module
     $ mv Tomcat-Webmin-Module-master tomcat
