@@ -27,11 +27,11 @@ The CATALINA_HOME variable is set both in the Tomcat init script as well as sete
 JRI File Locations
 ==================
 
-For JaspeReportsIntegration layout and customization options, please see the Jasper section below.
+For JasperReportsIntegration layout and customization options, please see the Jasper section below.
 
 
-Starting and Stoping
-====================
+Starting and Stopping
+=====================
 
 There are two ways to start/stop/restart Tomcat.
 
@@ -44,13 +44,13 @@ There are two ways to start/stop/restart Tomcat.
 .. code-block:: console
    :linenos:
 
-   /etc/init.d/tomcat start | stop |  restart
+    /etc/init.d/tomcat { start | stop | restart | status }
 
 
 Init Script
 ===========
 
-The Tomcat init script is located under /etc/init.d/tomcat and has the contents below.
+The Tomcat init script is located in /etc/init.d and has the following content.
 
 .. code-block:: bash
    :linenos:
