@@ -18,7 +18,7 @@ Reports can be scheduled with a variety of options via the Schedule tab as shown
 
 .. image:: _static/schedule-tab.gif
 
-On the main Schedule page, click the Add tab to open Create Data Source as shown below.  
+On the main Schedule page, click the Add tab to open the Create Schedule page as shown below.  
 
 .. image:: _static/schedule-new.gif
 
