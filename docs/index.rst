@@ -1,7 +1,7 @@
 JRI Publisher
 ==================================================
 
-.. image:: _static/jri-logo-small.png
+.. image:: _static/jri-logo-small.fw.png
 
 
 .. include:: ../README.rst
