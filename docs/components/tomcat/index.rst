@@ -39,7 +39,10 @@ There are two ways to start/stop/restart Tomcat.
 
    .. image:: _static/tomcat-tab.gif
 
-2.  Via SSH, using the following commands::
+2.  Via SSH, using the following commands
+
+.. code-block:: console
+   :linenos:
 
    /etc/init.d/tomcat start | stop |  restart
 
@@ -47,7 +50,10 @@ There are two ways to start/stop/restart Tomcat.
 Init Script
 ===========
 
-The Tomcat init script is located under /etc/init.d/tomcat and has the contents below::
+The Tomcat init script is located under /etc/init.d/tomcat and has the contents below.
+
+.. code-block:: bash
+   :linenos:
 
 
 
