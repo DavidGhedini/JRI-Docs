@@ -112,3 +112,76 @@ Version
 
 The JasperReportsIntegration version is the one selected while using the install Wizard.
 
+Schedule Files
+==============
+
+Each schedule creates a numeric file under:
+
+/home/tomcat/apache-tomcat-version/jasper_reports/schedules
+
+The file has the following structure:
+
+.. code-block:: bash
+   :linenos:
+
+   REP_FORMAT=pdf
+   REP_ID=NewReports/StateInfo
+   OPT_PARAMS="StateID=51"
+   REP_DATASOURCE="Demo DS"
+   EMAIL_SUBJ="State Report"
+   REP_FILE=State-Info.pdf
+   EMAIL_BODY="Please find the State Reports attached."
+   SCH_ID=12
+   RECP_EMAIL=user@company.com
+
+The above parameters are passed to the Jasper url as well as to MUTT for email delivery.
+
+
+MUTT Parameters
+===============
+JRI Publisher uses MUTT in conjuction with Postfix to deliver reports via email.
+
+The final input has the form::
+
+	./etc/init.d/gen_jri_report.sh schedules.{1}
+
+.. code-block:: bash
+   :linenos:
+   :emphasize-lines: 7,8
+
+
+
+	#!/bin/bash -e
+
+	source /etc/environment
+
+  	JRI_HOME="${CATALINA_HOME}/jasper_reports/"
+
+  	#source the report environment
+  	source "${JRI_HOME}/schedules/${1}_env.sh"
+
+  	DONT_MAIL="${2}"
+
+  	#set who is sending the mail
+  	export EMAIL='root@localhost'
+  	REPORT_FOLDER=$(dirname ${REP_ID})
+
+  	#encode the / in report id
+  	REP_ID=$(echo "${REP_ID}" | sed 's/\//%2F/g')
+
+  	if [ "${OPT_PARAMS}" ]; then
+  	OPT_PARAMS="&${OPT_PARAMS}"
+  	fi
+
+  	URL="http://localhost:8080/JasperReportsIntegration/report?_repName=${REP_ID}&_repFormat=${REP_FORMAT}&	_dataSource=${REP_DATASOURCE}&_outFilename=${REP_FILE}${OPT_PARAMS}"
+
+  	TSTAMP=$(date '+%Y%m%d_%H%M%S')
+  	REP_FILEPATH="${JRI_HOME}/reports/${REPORT_FOLDER}/${TSTAMP}_${REP_FILE}"
+
+  	wget -O"${REP_FILEPATH}" "${URL}"
+  	if [ $? -ne 0 ]; then
+  	rm -f "${REP_FILEPATH}"
+  	fi
+
+
+
